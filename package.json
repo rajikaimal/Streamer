@@ -1,0 +1,34 @@
+{
+  "name": "streamer",
+  "version": "0.1.0",
+  "description": "Sample application",
+  "main": "app.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xoRajika/Streamer.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "Rajika Imal <inbox.rajika@gmail.com> (http://xoRajika.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xoRajika/Streamer/issues"
+  },
+  "homepage": "https://github.com/xoRajika/Streamer#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.0",
+    "express-session": "^1.12.0",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.0",
+    "passport-twitter": "^1.0.3"
+  }
+}
